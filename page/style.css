@@ -213,4 +213,20 @@ p {
 
 }
 
+.seccion-main{
+    background-color: #6a040f;
+    padding: 6%;
+    width: 83%;
     
+    .seccion-elements h2 {
+        background-color: #17191b;
+    }
+
+    .seccion-elements dt{
+        margin-top: 2%;
+        color: #dee2e6;
+    }
+    .seccion-elements dd{
+        color: #dee2e6;
+    }
+}   
