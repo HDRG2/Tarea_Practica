@@ -3,7 +3,7 @@ h2,
 p {
     margin: 0;
     padding: 0;
-    color: #ffffff;
+    color: #dee2e6;
     font-family: "Playwrite NZ Basic";
     text-align: justify;
 }
@@ -11,7 +11,9 @@ p {
 .header-container {
     display: flex;
     justify-content: center;
-    background-color: rgb(219, 34, 34);
+    background-color: #6a040f;
+    width: 95%;
+    padding: 5px;
 }
 
 .body-container {
@@ -51,3 +53,164 @@ p {
 .headers-main{
     min-width:  100vw;
 }
+
+.main-classic h1{
+
+    margin: 0%;
+    padding: 5px;
+    color: #dee2e6;
+    font-family:"Playwrite NZ Basic";
+    font-size: 2em;
+    text-align: center;
+}
+
+.main-classic{
+    background-color: #6a040f;
+    width: 98%;
+
+}
+
+.main-article{
+    border: 1px solid #ffea00;
+    box-shadow: 5px 5px 5px #ff9505;
+    margin-bottom: 20%;
+    margin-top: 4%;
+    width: 96%;
+    padding: 1%;
+}
+.main-article h2{
+    margin: 0%;
+    padding: 0%;
+    color: #dee2e6;
+    font-family:"Playwrite NZ Basic";
+    font-size: 2rem;
+    text-align: center;
+ 
+}
+
+.main-parrafo p{
+    text-align: justify;
+    font-size: 1.0rem;
+    margin-top: 3%;
+    
+}
+
+.primera-img img{
+    width: 35%;
+    margin-top: 3%;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px #ff9505;
+    display: block;
+    margin-left: 30%;
+}
+
+.main-coches {
+
+    background-color: #6a040f;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.main-coches h1{
+    text-align: center;
+}
+   
+.parrafo-2 p{
+    margin-top: 3%;
+    text-align: justify;
+    font-size: 1.0rem;
+}
+
+
+.main-lista li{
+
+    background-color: #6a040f;
+    color: #dee2e6;
+    width: 45%;
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 3%; 
+    margin-bottom: 2%;
+}
+
+.main-lista{
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.clasic-container-top{
+    margin-bottom: 3%;
+    width: 95%;
+}
+
+.clasic-container-top{
+   
+    .Chevrolet img{
+        margin-top: 1%;
+        width: 45%;
+        border-radius: 10%;
+        box-shadow: 0 4px 8px #ff9505; 
+    }
+
+    .Nissan img{
+        margin-top: 1%;
+        width: 45%;
+        border-radius: 10%;
+        box-shadow: 0 4px 8px #ff9505;   
+    }
+} 
+
+.clasic-container-bottom{
+
+    .Porsche img{
+    margin-top: 1%;
+    width: 45%;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px #ff9505;
+}
+
+    .Dodge img{
+        margin-top: 1%;
+        width: 45%;
+        border-radius: 9%;
+        box-shadow: 0 4px 8px #ff9505;
+    }
+
+}
+
+.article-historia h1{
+    margin: 0%;
+    padding: 5px;
+    color: #dee2e6;
+    font-family:"Playwrite NZ Basic";
+    font-size: 2em;
+    text-align: center;
+}
+
+
+
+.article-historia{
+    background-color: #6a040f;
+    width: 98%;
+    margin-top: 3%;
+}
+
+.parrafo-historia{
+    margin-top: 3%;
+    text-align: justify;   
+}
+
+.subtitulo{
+    background-color: #660708;
+    width: 98%;
+    margin-top: 3%;   
+}
+
+.lista_numeros ol li{
+    background-color: #17191b;
+    text-align: left;
+
+}
+
+    
