@@ -1,13 +1,15 @@
 h1,
 h2,
-p {
+p{
     margin: 0;
     padding: 0;
     color: #dee2e6;
-    font-family: "Playwrite NZ Basic";
+    font-family:"Oswald";
     text-align: justify;
-
+    font-size: 125%;
 }
+
+
 
 .header-container {
     display: flex;
@@ -15,11 +17,11 @@ p {
     background-color: #6a040f;
     width: 95%;
     padding: 5px;
-    font-size: 110%;
+    font-size: 210%;
 }
 
 .body-container {
-    background-color: #17191b;
+    background-color: #17191b; 
     width: 100%;
 }
 
@@ -58,17 +60,17 @@ p {
     min-width: 100vw;
 }
 
-.main-classic h1 {
+.main-juegos h1 {
 
     margin: 0%;
     padding: 5px;
     color: #dee2e6;
-    font-family: "Playwrite NZ Basic";
-    font-size: 195%;
+    font-family: "Oswald";
+    font-size: 165%;
     text-align: center;
 }
 
-.main-classic {
+.main-juegos {
     background-color: #6a040f;
     width: 98%;
 
@@ -88,14 +90,14 @@ p {
     padding: 0%;
     color: #dee2e6;
     font-family: "Playwrite NZ Basic";
-    font-size: 190%;
+    font-size: 2rem;
     text-align: center;
 
 }
 
 .main-parrafo p {
     text-align: justify;
-    font-size: 145%;
+    font-size: 115%;
     margin-top: 3%;
 
 }
@@ -106,7 +108,7 @@ p {
         img{
             border-radius: 10%;
             margin: 0 auto;
-            width: 30%;
+            width: 40%;
             display: block;
             box-shadow: 0 10px 15px #e5383b;
         }
@@ -114,19 +116,19 @@ p {
 }
 
 
-.main-coches {
+.main-juegos {
     background-color: #6a040f;
     width: 100%;
     margin-top: 5%;
 }
-.main-coches h1 {
+.main-juegos h1 {
     text-align: center;
     font-size: 200%;
 }
 .parrafo-2 p {
     margin-top: 3%;
     text-align: justify;
-    font-size: 135%;
+    font-size: 125%;
 }
 
 
@@ -148,11 +150,13 @@ p {
 
 .classic-container-top {
   margin: 0%;
+  margin-top: 2%;
   padding: 1%;
   width: 95%;
   background-color: #343a40;
   color: #ffea00;
-  font-size: 155%;
+  font-size: 160%;
+  
 
   .classic-elements {
     padding: 2%;
@@ -166,11 +170,14 @@ p {
       .img-elements {
         display: flex;
         justify-content: space-between;
-        gap: 20%;
+        gap: 20px;
         width: 100%;
 
         .img-item {
           width: 48%;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
 
           li {
             margin-bottom: 1%;
@@ -185,8 +192,8 @@ p {
           img {
             border-radius: 3%;
             margin-top: 3%;
-            width: 100%; 
-            aspect-ratio: 16/9; 
+            width: 100%;
+            height: 85%;
             display: block;
             object-fit: cover;
           }
@@ -199,11 +206,11 @@ p {
 .classic-container-bottom {
   margin: 0%;
   margin-top: 2%;
-  padding: 1%;
-  width: 95%;
+  padding: 0%;
+  width: 97%;
   background-color: #343a40;
   color: #ffea00;
-  font-size: 155%;
+  font-size: 160%;
 
   .classic-elements-bottom {
     padding: 2%;
@@ -217,7 +224,7 @@ p {
       .img-elements-bottom {
         display: flex;
         justify-content: space-between;
-        gap: 20%;
+        gap: 20px;
         width: 100%;
 
         .img-item-bottom {
@@ -236,8 +243,8 @@ p {
           img {
             border-radius: 3%;
             margin-top: 3%;
-            width: 100%; 
-            aspect-ratio: 16/9; 
+            width: 95%;
+            height: 85%; 
             display: block;
             object-fit: cover;
           }
@@ -254,9 +261,11 @@ p {
     padding: 5px;
     color: #dee2e6;
     font-family: "Playwrite NZ Basic";
-    font-size: 190%;
+    font-size: 200%;
     text-align: center;
 }
+
+
 
 .classic-history{
     background-color: #6a040f;
@@ -267,37 +276,36 @@ p {
 .parrafo-historia {
     margin-top: 3%;
     text-align: justify;
-    font-size: 130%;
+    font-size: 120%;
 }
 
 .subtitulo {
     background-color: #660708;
-    width: 98%;
+    width: 95%;
     margin-top: 3%;
     
 
 }
 .subtitulo h2{
-    font-size: 180%;
+    font-size: 200%;
 }
 
 .lista_numeros ol li {
     background-color: #0b2545;
     text-align: left;
     color: #dee2e6;
-    font-size: 120%;
-    width: 95%;
+    font-size: 160%;
+    width: 65%;
     padding: 1%;
+    margin-left: 15%;
     text-align: center;
 
 }
 
 .seccion-main {
     background-color: #6a040f;
-    padding: 6%;
-    width: 85%;
-    box-sizing: border-box;
-    margin: 0 auto;
+    padding: 8%;
+    width: 83%;
 
     .seccion-elements h2 {
         background-color: #0b2545;
@@ -307,13 +315,14 @@ p {
     }
 
     .seccion-elements dt {
-        margin-top: 2%;
+        margin-top: 3%;
         color: #dee2e6;
-        font-size: 150%;
+        font-size: 180%;
     }
 
     .seccion-elements dd {
         color: #dee2e6;
-        font-size: 135%;
+        padding-top: 1%;
+        font-size: 165%;
     }
 }

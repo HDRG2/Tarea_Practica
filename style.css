@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 200%;
    
 }
 .main-class{
@@ -14,8 +15,7 @@ body {
 
 .body-container{
     background-color: cadetblue;
-    min-width: 85%;
-   
+    min-width: 85%;  
 }
 
 
